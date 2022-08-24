@@ -1,0 +1,75 @@
+@media screen and (min-width: 480px) {
+	.nav{
+		margin: inherit !important;
+	}
+	
+	.menuCenter {
+		margin:0 !important;
+	}
+	
+	header, main {
+		width:680px;
+	}
+	
+	.tabData {
+		width:640px;
+		margin:15px auto;
+	}
+	
+	.inline-block-voir_plus{
+		display: inline-block ;
+	}
+	
+	.inline-block-voir_plus {
+	box-sizing: border-box;
+	display: inline-block;
+	width:223px;
+	vertical-align:top;
+	}
+
+	.inline-block-voir_plus .conteneur {
+		width:223px !important;
+		min-height:225px !important;
+	}
+	
+	main .form input[type="text"]{
+	width: calc(193px - 5px - 5px);
+	height:25px;
+	border:0;
+	margin: 5px 0;
+	padding: 0 5px;
+	border-radius: 5px;
+	color:#878787;
+}
+	
+	main .form select{
+	width: 193px;
+	height:25px;
+	border:0;
+	margin: 5px 0;
+	padding: 0 5px;
+	border-radius: 5px;
+	color:#878787;
+	background-color:#ffffff; 
+	-webkit-appearance: none;/*Pour Ios reset apparence*/
+	appearance: none;/*Pour Ios reset apparence*/
+}
+
+.form .file label {
+  width: calc(193px - 5px);  height:20px;
+  background: #ffffff;
+  display: inline-block;
+  padding: 5px 0 0 5px;
+/*
+  padding: 5px 134px 5px 15px;
+*/
+  color:#878787;
+  font-size: 12px;
+  cursor:pointer;
+  font-family: Arial,Helvetica,sans-serif;
+  border-radius: 5px;
+  text-align: left;
+}
+
+	
+}
